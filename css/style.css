@@ -1,0 +1,228 @@
+h1 {
+
+    font-family: 'times', serif;
+    color: #000;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h2 {
+
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-right: 610px;
+}
+
+h3 {
+
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+h4 {
+
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 2px;
+    margin-top: 50px;
+}
+
+span.grey {
+
+    font-family: 'helvetica', sans-serif;
+    color: lightgrey;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 0px;
+}
+
+
+
+td {
+
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    
+    min-width: 180px;
+    padding-top: 10px;
+}
+
+
+p {
+    font-family: 'helvetica', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    margin-top: 5px;
+    z-index: 1000;
+}
+.active {
+
+    color: #8ee8f0;
+}
+
+a {
+    
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: #8ee8f0;
+
+}
+
+
+.header {
+
+    margin-top: 80px;
+}
+
+.line {
+    border-bottom: 2px solid #000;
+    height: 0 !important;
+    min-height: 0 !important;
+    left: 150px;
+    width: 45px;
+    position: absolute;
+    top: 160px;
+    height: 5px;
+}
+
+body {
+
+    border: 4px solid #000;
+    min-height: 756px;
+}
+
+
+
+/* FLEXBOX */
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin-top: 100px;
+margin-bottom: 100px;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    
+    flex-wrap: wrap;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  background: #fff;
+  padding: 0px;
+  width: 550px;
+  min-height: 150px;
+  margin-top: 40px;
+  
+}
+
+.flex-image {
+ width: 100%;
+ max-width: 550px; 
+ max-height: 400px;
+    z-index: -999;
+}
+
+/* FIX PADDING */
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.balk1 {
+    border-bottom: 30px solid #000;
+    height: 0 !important;
+    min-height: 0 !important;
+    left: 180px;
+    width: 180px;
+    position: absolute;
+    top: 673px;
+    height: 5px;
+}
+
+.balk2 {
+    border-bottom: 30px solid #000;
+    height: 0 !important;
+    min-height: 0 !important;
+    left: 770px;
+    width: 260px;
+    position: absolute;
+    top: 673px;
+    height: 5px;
+}
+
+.balk3 {
+    border-bottom: 30px solid #000;
+    height: 0 !important;
+    min-height: 0 !important;
+    left: 180px;
+    width: 210px;
+    position: absolute;
+    top: 1113px;
+    height: 5px;
+}
+
+.balk4 {
+    border-bottom: 30px solid #000;
+    height: 0 !important;
+    min-height: 0 !important;
+     left: 770px;
+    width: 260px;
+    position: absolute;
+    top: 1113px;
+    height: 5px;
+}
+
+
+/* CURRICULUM*/
+
+.curriculum {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+td.social {
+    
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    padding-top: 10px;
+}
