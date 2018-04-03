@@ -21,9 +21,10 @@ h3 {
     font-family: 'helvetica', sans-serif;
     color: #000;
     font-size: 11px;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 2px;
-    margin-left: 50px;
+    text-transform: uppercase;
+    
 }
 
 h4 {
@@ -31,10 +32,9 @@ h4 {
     font-family: 'helvetica', sans-serif;
     color: #000;
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 2px;
-    margin-left: 2px;
-    margin-top: 50px;
+  
 }
 
 span.grey {
@@ -141,17 +141,34 @@ margin-bottom: 100px;
   background: #fff;
   padding: 0px;
   width: 550px;
-  min-height: 150px;
+  min-height: 100px;
   margin-top: 40px;
   
 }
 
 .flex-image {
- width: 100%;
+ width: 120%;
  max-width: 550px; 
  max-height: 400px;
     z-index: -999;
+
 }
+
+.flex-image:hover {
+    width: 120%;
+    max-width: 550px; 
+    max-height: 400px;
+    opacity: 0.3;
+    z-index: 0;
+   }
+
+ .flex-image-under {
+     width: 100%;
+     margin-top: -40%;
+     visibility: hidden;
+     z-index: 999;
+ }  
+
 
 /* FIX PADDING */
 .container {
