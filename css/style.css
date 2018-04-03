@@ -1,5 +1,4 @@
 h1 {
-
     font-family: 'times', serif;
     color: #000;
     font-size: 30px;
@@ -7,7 +6,6 @@ h1 {
 }
 
 h2 {
-
     font-family: 'helvetica', sans-serif;
     color: #000;
     font-size: 11px;
@@ -17,7 +15,6 @@ h2 {
 }
 
 h3 {
-
     font-family: 'helvetica', sans-serif;
     color: #000;
     font-size: 11px;
@@ -25,7 +22,24 @@ h3 {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-left: 20px;
-    
+}
+
+h4 {
+    font-family: 'helvetica', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+
+h6 {
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
@@ -140,19 +154,6 @@ z-index: -999;
 
 }
 
-/*.flex-image:hover {
-    width: 100%;
-
-    opacity: 0.3;
-    z-index: 0;
-   }
-
- .flex-image-under {
-     width: 100%;
-     margin-top: -40%;
-     visibility: hidden;
-     z-index: 999;
- }  
 
 
 /* FIX PADDING */
@@ -201,6 +202,7 @@ td.social {
     padding-top: 0px;
 }
 
+/* ANIMATIE INDEX */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 .flex-item {
   font-family: 'Raleway', sans-serif;
@@ -214,18 +216,6 @@ td.social {
   font-size: 16px;
   text-align: left;
 }
-
-/*.flex-item {
-    font-family: 'helvetica', sans-serif;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    padding: 0px;
-    width: 550px;
-    max-height: 400px;
-    margin-top: 50px;
-    
-  }*/
 
 
 .flex-item * {
@@ -322,13 +312,5 @@ td.social {
   transition-delay: 0.2s;
 }
 
-h4 {
 
-    font-family: 'helvetica', sans-serif;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    padding-top: 15px;
-  
-}
+/* CARROUSEL */
