@@ -24,18 +24,11 @@ h3 {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-left: 20px;
     
 }
 
-h4 {
 
-    font-family: 'helvetica', sans-serif;
-    color: #000;
-    font-size: 11px;
-    font-weight: 300;
-    letter-spacing: 2px;
-  
-}
 
 span.grey {
 
@@ -137,27 +130,19 @@ margin-bottom: 100px;
   justify-content: space-between;
 }
 
-.flex-item {
-  background: #fff;
-  padding: 0px;
-  width: 550px;
-  min-height: 100px;
-  margin-top: 40px;
-  
-}
+
 
 .flex-image {
- width: 120%;
+ width: 100%;
  max-width: 550px; 
- max-height: 400px;
-    z-index: -999;
+ min-height: 400px;
+z-index: -999;
 
 }
 
-.flex-image:hover {
-    width: 120%;
-    max-width: 550px; 
-    max-height: 400px;
+/*.flex-image:hover {
+    width: 100%;
+
     opacity: 0.3;
     z-index: 0;
    }
@@ -214,4 +199,136 @@ td.social {
     letter-spacing: 0.5px;
     margin-right: 300px;
     padding-top: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.flex-item {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 50px;
+  width: 550px;
+  max-height: 400px;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+
+/*.flex-item {
+    font-family: 'helvetica', sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px;
+    width: 550px;
+    max-height: 400px;
+    margin-top: 50px;
+    
+  }*/
+
+
+.flex-item * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.flex-item:before {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.flex-item img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.flex-item figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-item h4,
+.flex-item h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.flex-item h4 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.flex-item h5 {
+  font-weight: normal;
+  background-color: #8ee8f0;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.flex-item a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.flex-item:hover:before,
+.flex-item.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.flex-item:hover h4,
+.flex-item.hover h4,
+.flex-item:hover h5,
+.flex-item.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.flex-item:hover h4,
+.flex-item.hover h4 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.flex-item:hover h5,
+.flex-item.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+h4 {
+
+    font-family: 'helvetica', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 15px;
+  
 }
