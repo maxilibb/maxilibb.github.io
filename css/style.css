@@ -319,3 +319,15 @@ td.social {
 .mySlides {
     margin: auto;
 }
+
+.buttons {
+    display: block;
+    margin-top: 50px;
+
+}
+
+button {
+    background-color:#8ee8f0;
+    border-color: transparent;
+    color: #fff;
+}
