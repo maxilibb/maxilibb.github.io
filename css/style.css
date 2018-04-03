@@ -163,49 +163,7 @@ margin-bottom: 100px;
     margin-right: 0;
 }
 
-.balk1 {
-    border-bottom: 30px solid #000;
-    height: 0 !important;
-    min-height: 0 !important;
-    left: 180px;
-    width: 180px;
-    position: absolute;
-    top: 673px;
-    height: 5px;
-}
 
-.balk2 {
-    border-bottom: 30px solid #000;
-    height: 0 !important;
-    min-height: 0 !important;
-    left: 770px;
-    width: 260px;
-    position: absolute;
-    top: 673px;
-    height: 5px;
-}
-
-.balk3 {
-    border-bottom: 30px solid #000;
-    height: 0 !important;
-    min-height: 0 !important;
-    left: 180px;
-    width: 210px;
-    position: absolute;
-    top: 1113px;
-    height: 5px;
-}
-
-.balk4 {
-    border-bottom: 30px solid #000;
-    height: 0 !important;
-    min-height: 0 !important;
-     left: 770px;
-    width: 260px;
-    position: absolute;
-    top: 1113px;
-    height: 5px;
-}
 
 
 /* CURRICULUM*/
@@ -225,4 +183,18 @@ td.social {
     letter-spacing: 1px;
     margin-left: 0px;
     padding-top: 10px;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.tekst {
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-right: 300px;
+    padding-top: 0px;
 }
