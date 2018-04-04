@@ -208,7 +208,7 @@ td.social {
 .flex-item {
   font-family: 'Raleway', sans-serif;
   position: relative;
-  display: inline-block;
+  display: flex;
   overflow: hidden;
   margin-top: 30px;
   width: 550px;
