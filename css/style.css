@@ -152,10 +152,22 @@ margin-bottom: 100px;
  max-width: 550px; 
  min-height: 400px;
 z-index: -999;
-
 }
 
+.flex-image-hoog {
+    width: 100%;
+    max-width: 550px; 
+   z-index: -999;
+   }
 
+   .flex-item-photo {
+    font-family: 'helvetica', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+    min-height: 200px;
+    color: #ffffff;
+
+  }
 
 /* FIX PADDING */
 .container {
