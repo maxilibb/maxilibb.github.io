@@ -1,3 +1,10 @@
+body {
+
+    border: 0px solid #8ee8f0;
+    min-height: 756px;
+}
+
+
 h1 {
     font-family: 'times', serif;
     color: #000;
@@ -53,7 +60,7 @@ span.grey {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 2px;
-    margin-left: 0px;
+    margin-left: -50px;
 }
 
 
@@ -106,23 +113,18 @@ a:hover {
     margin-top: 80px;
 }
 
-.line {
-    border-bottom: 2px solid #000;
-    height: 0 !important;
-    min-height: 0 !important;
-    left: 150px;
-    width: 45px;
-    position: absolute;
-    top: 160px;
-    height: 5px;
+.far {
+    color: #000;
+    font-size: 30px;
 }
 
-body {
-
-    border: 4px solid #000;
-    min-height: 756px;
+.far:hover {
+    color: #8ee8f0;
 }
 
+.nav {
+    margin-top: -30px;
+}
 
 
 /* FLEXBOX */
@@ -345,3 +347,4 @@ button {
     border-color: transparent;
     color: #fff;
 }
+
