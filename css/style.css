@@ -121,8 +121,10 @@ a:hover {
     color: #8ee8f0;
 }
 
-.nav {
-    margin-top: -30px;
+.navbar {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-right: 30px;
 }
 
 
