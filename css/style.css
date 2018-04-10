@@ -359,6 +359,9 @@ button {
     color: #8ee8f0;
 }
 
+.container-social {
+    padding-top: 50px;
+}
 .social {
     color: #000;
     font-size: 40px;
