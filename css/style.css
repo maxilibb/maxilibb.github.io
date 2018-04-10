@@ -348,3 +348,18 @@ button {
     color: #fff;
 }
 
+
+
+.far, .fab {
+    color: #000;
+    font-size: 30px;
+}
+
+.far:hover, .fab:hover {
+    color: #8ee8f0;
+}
+
+.social {
+    color: #000;
+    font-size: 40px;
+}
