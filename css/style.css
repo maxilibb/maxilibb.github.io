@@ -152,8 +152,8 @@ a:hover {
 
 .flex-image {
  width: 100%;
- max-width: 550px; 
- min-height: 400px;
+ max-width: auto; 
+ min-height: auto;
 z-index: -999;
 }
 
@@ -257,6 +257,8 @@ td.social {
 .flex-item img {
   vertical-align: top;
   max-width: 100%;
+  width: 100%;
+  height: 100%;
   backface-visibility: hidden;
 }
 .flex-item figcaption {
