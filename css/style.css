@@ -62,6 +62,16 @@ span.grey {
     margin-left: -34px;
 }
 
+.uitleg {
+
+    font-family: 'helvetica', sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    margin-left: 0;
+    letter-spacing: 1px;
+}
+
 
 
 td {
