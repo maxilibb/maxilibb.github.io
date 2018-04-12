@@ -153,6 +153,11 @@ a {
     border: none;
 }
 
+.navbar button:focus, .navbar button:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
 
 /* FLEXBOX */
 @import "compass/css3";
